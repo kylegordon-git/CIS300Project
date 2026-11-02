@@ -1,0 +1,26 @@
+* {
+    background: linear-gradient(#1a1a1a, #2d2d2d);
+    color: #ffffff;
+    padding: 50px 10%;
+}
+
+.menu {
+    display: flex; 
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+h1 {
+    margin-top: 50px;
+    border-top: 3px solid #00bfff;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin: 20px;
+    border: 3px solid #00bfff;
+}
