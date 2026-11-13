@@ -4,6 +4,28 @@
     padding: 50px 10%;
 }
 
+head .fav {
+    background-color: antiquewhite;
+    box-shadow: 4px antiquewhite;
+}
+
+title {
+    text-decoration: underline;
+    font-size: large;
+    color: antiquewhite;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border: 3px solid #00bfff;
+    padding: 0 4em 0 4em;
+    list-style-type: none;
+    font-size: 18px;
+}
+
 .menu {
     display: flex; 
     justify-content: center;
@@ -22,5 +44,5 @@ h1 {
 
 h2 {
     margin: 20px;
-    border: 3px solid #00bfff;
+    border-top: 3px solid #00bfff;
 }
