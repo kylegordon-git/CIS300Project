@@ -18,32 +18,33 @@
                     </ul>
             </nav>
         </header>
-        <main>
-            <div class="left">
-                <img class="article" src="images/article.png" alt="visual-aid"> 
-                <p>This will be the caption underneath the image. </p>
-            </div>
-            <div class="right">
-                <h1>We need YOU to get involved in local sports!</h1>
-                <div class="photo-grid">
-                    <img src="images/stat1.png" alt="Stat 1">
-                    <img src="images/stat2.png" alt="Stat 2">
-                    <img src="images/stat3.png" alt="Stat 3">
-                    <img src="images/stat4.png" alt="Stat 4">
-                    <img src="images/stat5.png" alt="Stat 5">
-                    <img src="images/stat6.png" alt="Stat 6">
-                    <img src="images/stat7.png" alt="Stat 7">
-                    <img src="images/stat8.png" alt="Stat 8">
-                    <img src="images/stat9.png" alt="Stat 9">
-                </div>
-                <h2>Sponsored Supporter Groups</h2>
-                <div class="supporter-grid">
-                    <img src="images/capelli.png" alt="Capelli Sports">
-                    <img src="images/officialsports.png" alt="Official Sports">
-                    <img src="images/soccerpost.png" alt="Soccer Post">
-                </div>
-            </div>
-        </main>
+<main class="contact">
+    <h1>Contact Us</h1>
+
+    <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" >
+        </div>
+
+        <div class="form-row">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" >
+        </div>
+
+        <div class="form-row">
+        <label for="phone">Phone-Number</label>
+        <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-row form-row-message">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="8" ></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+    </form>
+</main>
         <footer>
             <h3>Legal Disclaimer</h3>
             <a href="contact.html"><b>Contact Us!</b></a>
